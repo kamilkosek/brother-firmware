@@ -1,0 +1,4 @@
+# Python 3.12 is recommended for the pinned binary wheels.
+# The extraction, signature, repacking, and upload tools use the standard library.
+ziglang==0.13.0
+unicorn==2.1.2

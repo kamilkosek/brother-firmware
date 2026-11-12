@@ -1,0 +1,33 @@
+# Private manufacturer inputs and generated output
+/inputs/*
+!/inputs/README.md
+/build/
+/dist/
+/analysis/
+/firmware/
+*.djf
+*.bin
+*.elf
+*.exe
+*.der
+*.pcap
+*.pcapng
+*.saz
+*.har
+*.zip
+*.tar.gz
+*upload-report.json
+*-evidence.json
+*.snapshot.json
+# Local environments and credentials
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+.aws/
+.codex/
+.agents/
+.DS_Store

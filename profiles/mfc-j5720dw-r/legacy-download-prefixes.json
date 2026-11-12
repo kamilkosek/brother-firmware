@@ -1,0 +1,40 @@
+{
+  "prefix": "\u001b%-12345X@PJL ENTER LANGUAGE=PCL\n\u001b\r!",
+  "variants": [
+    {
+      "pointer": "0x40958db0",
+      "length": 11,
+      "bytes_hex": "313233353146494e4b2000",
+      "text": "12351FINK \u0000",
+      "download_kind": 11
+    },
+    {
+      "pointer": "0x40958dbb",
+      "length": 11,
+      "bytes_hex": "313233353546494e4b2000",
+      "text": "12355FINK \u0000",
+      "download_kind": 12
+    },
+    {
+      "pointer": "0x40958dc6",
+      "length": 11,
+      "bytes_hex": "313233353746494e4b2000",
+      "text": "12357FINK \u0000",
+      "download_kind": 10
+    },
+    {
+      "pointer": "0x40958dd1",
+      "length": 11,
+      "bytes_hex": "313233353646494e4b2000",
+      "text": "12356FINK \u0000",
+      "download_kind": 13
+    },
+    {
+      "pointer": "0x40958ddc",
+      "length": 14,
+      "bytes_hex": "3132333535464e432d3831444200",
+      "text": "12355FNC-81DB\u0000",
+      "download_kind": 14
+    }
+  ]
+}

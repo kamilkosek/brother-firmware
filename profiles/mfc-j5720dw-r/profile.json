@@ -1,0 +1,26 @@
+{
+  "id": "mfc-j5720dw-r",
+  "model": "MFC-J5720DW",
+  "spec": "0003",
+  "source_firmware": "R2401191337:F58C",
+  "source_filename": "LZ5014_R.djf",
+  "source_sha256": "e57db7c645a5add6cfe5a486ad7755de154870cd4f228b63ce4ca7addb822eca",
+  "ro_sha256": "59ec7a5549069485fc33ce17a963de7147600953be37413da792d8114dedaa3f",
+  "native_abi": {
+    "architecture": "ARMv5TE",
+    "instruction_set": "Thumb-1",
+    "endianness": "BE32",
+    "cpu": "arm926ej-s"
+  },
+  "ro_base": "0x40037000",
+  "rom0_flash_base": "0x08020000",
+  "payload_flash_base": "0x08e00000",
+  "rom1_flash_base": "0x09600000",
+  "status_callback_slot": "0x406efc00",
+  "near_sensor_entry": "0x402a47e2",
+  "model_codes": [
+    "8CA-U29-001",
+    "8CA-U29-002"
+  ],
+  "binding_note": "Documentation and guard data, not a portable runtime address abstraction. All absolute calls and RAM offsets in src/native_backend.c and src/control_payload.c must also be re-derived for a port."
+}

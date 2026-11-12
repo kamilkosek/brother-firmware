@@ -1,0 +1,27 @@
+{
+  "scope": "English source-only publication preparation",
+  "original_control_hardware_status": "Operator reported working; independent reboot-retention confirmation remains pending",
+  "english_rebuild_hardware_tested": false,
+  "network_or_printer_actions_during_preparation": false,
+  "python_tests_with_private_images": {
+    "passed": 20,
+    "skipped": 0
+  },
+  "clean_clone_tests": {
+    "passed": 12,
+    "optional_private_image_tests_skipped": 8
+  },
+  "host_c_suites": 2,
+  "native_model_checks": 60000,
+  "compiled_arm_mock_cases": 38,
+  "tool_versions": {
+    "zig": "0.13.0",
+    "unicorn": "2.1.2"
+  },
+  "reference_build": {
+    "candidate_firmware": "R2401191337:1368",
+    "sha256": "e7067af072080bb58a3d1ab2788ca7b81c312458e181638e60ea5e1b335f95ce",
+    "source_sha256": "e57db7c645a5add6cfe5a486ad7755de154870cd4f228b63ce4ca7addb822eca",
+    "note": "Reference build only; compiler/compressor differences can affect the generated checksum. Use your own manifest."
+  }
+}
